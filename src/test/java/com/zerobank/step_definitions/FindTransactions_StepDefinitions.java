@@ -15,7 +15,6 @@ import static org.junit.Assert.*;
 
 public class FindTransactions_StepDefinitions {
 
-    OnlineBankingPage onlineBankingPage = new OnlineBankingPage();
     AccountActivityPage accountActivityPage = new AccountActivityPage();
 
     @When("the user enters date range from {string} to {string}")
